@@ -6,10 +6,16 @@
   "author": "Leonardo Souza <leogsouza@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.16.2",
+    "babel-jest": "^20.0.3",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
     "express": "^4.15.3",
+    "jest": "^20.0.4",
     "password-generator": "^2.1.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "./node_modules/.bin/jest"
   }
 }
