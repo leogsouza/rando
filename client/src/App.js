@@ -3,13 +3,17 @@ import './App.css';
 
 class App extends Component {
 
-  state = { passwords: []}
+  constructor() {
+    super();
+    this.state = { passwords: []};
+    this.getPasswords = this.getPasswords.bind(this);
+  }
 
   componentDidMount() {
     this.getPasswords();
   }
 
-  getPasswords = () => {
+  getPasswords() {
     // Get the passwords and store them in state
     fetch('/api/passwords')
       .then(res => res.json())
