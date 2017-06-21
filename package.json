@@ -16,6 +16,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest --env=node",
+    "test:watch": "./node_modules/.bin/jest --env=node --watch",
+    "test:coverage": "./node_modules/.bin/jest --env=node --coverage"
   }
 }
