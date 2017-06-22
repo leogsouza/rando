@@ -28,6 +28,9 @@
   "engines": {
     "node": "7.x"
   },
+  "jest": {
+    "testRegex": "tests/.*\\.(js|jsx)$"
+  },
   "devDependencies": {
     "enzyme": "^2.8.2"
   }
