@@ -6,7 +6,7 @@
   "author": "Leonardo Souza <leogsouza@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "babel-jest": "^20.0.3",
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
